@@ -43,3 +43,8 @@ function calculateOvertimePay(rate, hours) {
     return 0;
 }
 
+// Step 5: Calculate taxes at a flat rate of 15%
+function calculateTaxes(grossPay) {
+    return grossPay * 0.15;
+}
+
