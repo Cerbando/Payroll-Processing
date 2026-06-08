@@ -74,3 +74,12 @@ function processPayroll(employee) {
         netPay: netPay.toFixed(2)
     };
 }
+
+// Step 7: Loop through employees and display payroll for each employee
+for (const employee of employees) {
+    const payroll = processPayroll(employee);
+
+    console.log("Payroll Summary");
+    console.log(payroll);
+    console.log("--------------------");
+}
